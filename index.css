@@ -1,0 +1,191 @@
+.heading{
+    
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 137px;
+    margin-bottom: -122px;
+    margin-left: 82px;
+}
+.box1{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 211px;
+    height: 320px;
+    box-shadow: 5px 5px 5px lightslategrey;
+    text-align: center;
+    margin: 74px;
+    justify-content: space-evenly;
+}
+.firstpage{
+    display: flex;
+    flex-direction: row;
+    content: center;
+    height: 500px;
+    width: 100%;
+}
+.ending{
+    margin-left: 852px;
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+
+}
+.font1{
+    color: red;
+    font-size: x-large;
+    text-decoration-line: line-through;
+}
+.font2{
+    font-size: x-large;
+    text-align: left;
+}
+.blur{
+    filter: blur(5px);
+    text-align: center;
+    align-items: center;
+}
+.outerbox{
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 350px;
+    height: 150px;
+    z-index: 1;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    top: 250px;
+    left: 577px;
+    color: red;
+    box-shadow: 2px 2px grey;
+}
+input{
+    border: 4px solid red;
+}
+.plus{
+    top: 50px;
+    margin-left: 150px;
+}
+.box{
+    border: 2px solid grey;
+    border-radius: 5px;
+    box-shadow: 6px 6px lightgrey;
+    display: block;
+    margin: 18px;
+    width: 394px;
+    height: 46px;
+    line-height: 62px;
+    padding: 17px;
+    margin-left: 546px;
+    font-size: 38px;
+}
+.page2{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.box2{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 276px;
+    height: 320px;
+    box-shadow: 5px 5px 5px lightslategrey;
+    text-align: center;
+    margin-left: 626px;
+    justify-content: space-evenly;
+}
+.plus{
+    margin-left: 221px;
+    margin-top: 89px;
+}
+.box3{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 211px;
+    height: 320px;
+    box-shadow: 5px 5px 5px lightslategrey;
+    text-align: center;
+    margin: -379px;
+    justify-content: space-evenly;
+    margin-top: 450px;
+}
+@media screen and (min-width:300px)and (max-width:800px){
+    .heading{
+        
+        font-size: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 137px;
+        margin-bottom: -122px;
+        margin-left: 30px;
+    } 
+    .firstpage{
+        display: flex;
+        flex-direction: column;
+        content: center;
+    }
+    .text{
+        display: none;
+    }
+    .box1{
+        border: 2px solid grey;
+        border-radius: 10px;
+        width: 387px;
+        height: 330px;
+        box-shadow: 5px 5px 5px lightslategrey;
+        text-align: center;
+        margin: 25px;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .box3{
+        border: 2px solid grey;
+        border-radius: 10px;
+        width: 387px;
+        height: 330px;
+        box-shadow: 5px 5px 5px lightslategrey;
+        text-align: center;
+        margin: 25px;
+        justify-content: space-evenly;
+    }
+    .ending{
+        margin-left: 371px;
+        font-size: 30px;
+        margin-top: 16px;
+        margin-bottom: 20px;
+    
+    }
+    .text1{
+        display: none;
+    }
+    .outerbox{
+        border: 2px solid red;
+        border-radius: 5px;
+        width: 296px;
+        height: 124px;
+        z-index: 1;
+        text-align: center;
+        padding: 15px;
+        position: absolute;
+        top: 250px;
+        left: 28px;
+        color: red;
+        box-shadow: 2px 2px grey;
+    }
+    .page2{
+        text-align: center;
+        font-size: xx-large;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .box2{
+        border: 2px solid red;
+        border-radius: 10px;
+        width: 265px;
+        height: 315px;
+        box-shadow: 5px 5px 5px lightslategrey;
+        text-align: center;
+        margin-left: 40px;
+        justify-content: space-evenly;
+    }
+    .line{
+        display: none;
+    }
+}
